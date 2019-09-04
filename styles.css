@@ -69,7 +69,7 @@ h4{
 }
 
 h5{
-  font-size: 21px;
+  font-size: 23px;
   color: #9B59B6;
   font-family: Lucida Bright;
 }
@@ -81,7 +81,13 @@ p{
 }
 
 h6{
-  font-size: 21px;
+  font-size: 23px;
+  color: #9B59B6;
+  font-family: Lucida Bright;
+}
+
+#title{
+  font-size: 23px;
   color: #9B59B6;
   font-family: Lucida Bright;
 }
