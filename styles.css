@@ -7,6 +7,7 @@ html, body{
 body{
   font-family: inherit;
   font-weight: 100;
+  background-color: #EBDEF0;
 }
 
 .container {
@@ -44,14 +45,43 @@ body{
   text-transform: uppercase;
 }
 
-  h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 100;
+h2{
+  color: #F48FB1;
+  font-family: Lucida Bright;
+  font-size: 30px;
+}
+
+.description{
   font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
-  font-family: Georgia;
+  text-align: center
+}
+
+h3{
+  color: #9B59B6;
+  font-family: Lucida Bright;
+  font-size: 21px;
+}
+
+h4{
+  color: #F48FB1;
+  font-family: Lucida Bright;
+  font-size: 30px;
+}
+
+h5{
+  font-size: 21px;
+  color: #9B59B6;
+  font-family: Lucida Bright;
+}
+
+
+p{
+  text-align: center;
+  font-size: 22px;
+}
+
+h6{
+  font-size: 21px;
+  color: #9B59B6;
+  font-family: Lucida Bright;
 }
