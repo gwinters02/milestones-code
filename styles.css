@@ -29,6 +29,7 @@ body{
   }
 
 .header h1 {
+  font-family: 'Playfair Display', serif;
   color: #fff;
   line-height: 100px;
   font-size: 80px;
@@ -45,10 +46,18 @@ body{
   text-transform: uppercase;
 }
 
+.web {
+  color: #F48FB1;
+  font-family: Lucida Bright;
+  font-size: 30px;
+  text-align: center;
+}
+
 h2{
   color: #F48FB1;
   font-family: Lucida Bright;
   font-size: 30px;
+  text-align: center;
 }
 
 .description{
@@ -56,22 +65,26 @@ h2{
   text-align: center
 }
 
+
 h3{
   color: #9B59B6;
   font-family: Lucida Bright;
   font-size: 21px;
+  text-align: center;
 }
 
 h4{
   color: #F48FB1;
   font-family: Lucida Bright;
   font-size: 30px;
+  text-align: center;
 }
 
 h5{
   font-size: 23px;
   color: #9B59B6;
   font-family: Lucida Bright;
+  text-align: center;
 }
 
 
@@ -84,6 +97,7 @@ h6{
   font-size: 23px;
   color: #9B59B6;
   font-family: Lucida Bright;
+  text-align: center;
 }
 
 #title{
@@ -91,3 +105,59 @@ h6{
   color: #9B59B6;
   font-family: Lucida Bright;
 }
+
+#theabc {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Theunivac {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#FORTRAN {
+  width: 470px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PDP-1 {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  background: #F8BBD0;
+  height: 80px;
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #CE93D8;
+  cursor: pointer;
+  transition: background .5s;
